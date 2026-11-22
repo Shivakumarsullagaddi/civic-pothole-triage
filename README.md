@@ -111,6 +111,4 @@ $env:TEST_DATABASE_URL = "postgresql+psycopg://postgres:PASSWORD@localhost:5432/
 - Map tiles © OpenStreetMap contributors.
 - Training uses the Ultralytics library (AGPL-3.0); the app runs exported ONNX models with ONNX Runtime.
 
-## Team
-
 Built by **Shivakumarsullagaddi** for the IDEA//FORGE hackathon.
