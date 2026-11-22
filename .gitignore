@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-train/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Data (large, downloaded or generated)
+data/
+backend/models/*.onnx
+backend/models/*.pt
+
+# Frontend
+node_modules/
+dist/
+kaggle/job/
+kaggle/output/
+.env.cloud
+backend/static/
+
+# Private planning notes (not published)
+IDEAS.md
+DATASETS.md
+PLAN.md
+
+# Local/cloud secrets and generated artifacts
+*.cloud
+.env.*
+!.env.example
+backend/static/
+frontend/dist/
+kaggle/job/
+kaggle/output/
+*.log
+*.pt

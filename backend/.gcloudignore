@@ -1,0 +1,15 @@
+# Files sent to Cloud Build for `gcloud run deploy --source`. Only the app, its model and the built site.
+.gcloudignore
+.git
+.venv/
+.venv-train/
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/
+tools/
+.env
+.env.*
+!.env.example
+models/*
+!models/pothole_y11s_v2_640.onnx
